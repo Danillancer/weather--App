@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+ 
+
+
+
+body{
+    background: url('https://www.nasa.gov/sites/default/files/thumbnails/image/smap-weather.jpg') center / cover no-repeat ;
+width: 100%;
+height: 100vh;
+font-family: 'Monseran', sans-serif;
+}
+
+.search{
+    display: flex;
+    padding-top: 10%;
+    color: whitesmoke initial;
+    justify-content: center;
+    
+}
+.search__input{
+background:none;
+border-bottom: 2px solid rgb(9, 247, 255);
+font-size: 1.5em;
+color: whitesmoke;
+
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.685);
+    
+  }
+.weather-box, .location-box{
+margin: 30px auto;
+text-align: center;
+color:whitesmoke;
+
+}  
+.location-box .location{
+    font-size: 3em;
+    text-shadow: 3px 5px rgba(50, 50,70, 0.5);
+}
+.location-box .date{
+    font-size: 1.5em;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(50, 50,70, 0.5);
+}
+
+.weather-box .temp{
+    font-size: 102px;
+    background-color: rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-shadow: 3px 5px rgba(50, 50,70, 0.5);
+    box-shadow:3px 6px rgba(50, 50,70, 0.5);
+}
+.weather-box .weather{
+    margin: 20px;
+    font-size: 50px;
+    text-shadow: 3px 5px rgba(50, 50,70, 0.5);
+    
+}
